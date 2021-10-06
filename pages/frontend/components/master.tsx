@@ -2,15 +2,17 @@ import Image from 'next/image'
 import styles from '../../../styles/Home.module.css'
 import Header from './header'
 import HeadPage from './head'
+import photo from '../../../assets/test.png'
 
 export default function Master(props) {
   return (
     <div className={styles.container}>
       <HeadPage />
       <main className={styles.main}>
-        <Header />
-        <div>
-    </div>
+      <Image src={photo} alt="Picture of the author" />
+      <Header />
+      <div>
+      </div>
     {props.children}
       </main>
 
