@@ -1,7 +1,7 @@
 import Master from './frontend/components/master'
 import styles from '../styles/Home.module.css'
 
-export default (props) => {
+export default function Index(props) {
   return (
     <Master>
        <div className={styles.grid}>
