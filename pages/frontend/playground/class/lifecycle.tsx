@@ -19,6 +19,9 @@ export default class ClassLifeCycle extends Component<any, any> {
     }
 
     componentWillUpdate() {
+        // tự kiểm tra xem mỗi state, state nào bị thay đổi ?
+        // để mình thực hiện logic sao cho phù hợp
+
         //userId->call server -> data phu thuoc vao userId
         console.log('run componentWillUpdate')
     }
