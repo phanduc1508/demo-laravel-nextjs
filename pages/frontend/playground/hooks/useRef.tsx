@@ -9,8 +9,12 @@ const demoUseRef = () => {
     }
 
     const handleClickUploadFile= () => {
-        inputFileEl.current.click();
-        console.log( inputFileEl.current)
+        // inputFileEl.current.click();
+        // console.log( inputFileEl.current)
+
+        //or
+        const input = document.querySelector("input[type='file']") as HTMLInputElement;
+        input.click();
     }
 
     return (
