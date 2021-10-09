@@ -6,6 +6,7 @@ import { AppProps } from 'next/app'
 import '../styles/globals.css'
 import HeadPage from './frontend/components/head'
 import "../styles/style.scss"
+import '../pages/frontend/components/ModalDemo/modal.scss';
 
 
 //cách 1: khai báo theo class component

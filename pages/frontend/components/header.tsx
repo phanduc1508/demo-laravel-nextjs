@@ -22,6 +22,12 @@ const Header = () => {
             <Link href="/frontend/login">
                 <a style={linkStyle}>Login</a>
             </Link>
+            <Link href="/frontend/playground/hooks/lifecycle">
+                <a style={linkStyle}>hooks life cycle </a>
+            </Link>
+            <Link href="/frontend/playground/class/lifecycle">
+                <a style={linkStyle}>class life cycle </a>
+            </Link>
         </div>
     )
 } 
